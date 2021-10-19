@@ -1,0 +1,125 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    background-color: chartreuse;
+    position: relative;
+    text-align: center;
+}
+
+nav>div #icono{
+    font-size: 4rem;
+    margin: 5% auto 1%;
+}
+
+nav>div h1{
+    margin: 2% 0;
+    padding: 0;
+}
+
+nav>div form{
+    margin: 10% 0;
+}
+
+nav> div form input{
+    width: 60%;
+}
+
+nav>div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 19% 7% auto 2px;
+    padding: 0;
+}
+
+nav div ul p{
+    margin: 0;
+}
+
+main {
+    background-color: rgb(194, 238, 150);
+    text-align: center;
+}
+
+main div {
+    height: 100%;
+    width: 100%;
+}
+
+main i {
+    font-size: 4rem;
+}
+
+main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+main h2{
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    height: 10%;
+    margin: 2% 0;
+}
+
+#banner>iframe {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+footer>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Formulario */
+
+#registration, #enter{
+    width: 30%;
+    height: 30%;
+    border: 2px solid rgb(15, 15, 15);
+    font-weight: bold;
+    background-color: rgb(194, 238, 150);
+    padding: 2% 2%;
+    margin: 4% 31%;
+}
+
+#registration>h1 {
+    margin: 2% 0 2% 0;
+}
+
+#registration>input, label {
+    margin: 2% 17%;
+}
+
+#registration>p {
+    text-align: center;
+}
+
